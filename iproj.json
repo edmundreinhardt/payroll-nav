@@ -1,3 +1,5 @@
 {
-  "description": "First project for Navigate!"
+  "description": "First project for Navigate!",
+  "repository": "https://github.com/edmundreinhardt/payroll-nav",
+  "license": "Apache 2.0"
 }
