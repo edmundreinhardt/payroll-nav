@@ -2,5 +2,14 @@
   "description": "First project for Navigate!",
   "repository": "https://github.com/edmundreinhardt/payroll-nav",
   "license": "Apache 2.0",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "curlib": "&PAY_PGM",
+  "includePath": [
+    "include"
+  ],
+  "preUsrlibl": [
+    "&PAY_DTA"
+  ],
+  "buildCommand": "/QOpenSys/pkgs/bin/makei build",
+  "compileCommand": "/QOpenSys/pkgs/bin/makei compile -f {filename}"
 }
